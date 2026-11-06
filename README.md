@@ -26,5 +26,6 @@
 <p>To build the Docker image using the Dockerfile: open your terminal and run the command:</p>
 <code>docker build -t cloud-service-demo:1.0 .</code>
 
+<br>
 <p>To run the Docker Container run the command on your terminal:</p>
 <code>docker run -d --name cloud-demo-container -p 8080:80 cloud-service-demo:1.0</code>
